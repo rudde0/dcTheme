@@ -1,0 +1,71 @@
+//META{"name":"Expose X (forked by rudde)","description":"Expose X is a clean theme for Discord. It allows customization like accent colors, custom fonts, color change, and more to come in the future.","author":"Corbs#0001","version":"AutoUpdate"}*//{}
+
+@import url("https://cdn.staticaly.com/gh/ruddeTR/dcTheme/059ddf72/hook.theme.css");
+:root {
+    /* Background */
+    --custombackground: url(https://source.unsplash.com/random);
+    --blur: 0px !important;
+    --opacitybg: 0.5 !important;
+
+    /* Accent colorws */
+    --accentcolor: red !important;   /* To reset the color back to default, use #738bd7 */
+    --accenttext: white !important; /* Use this to change the text colors that are on top of the accentcolor, this is to help make text readable if you're using a bright accent color */
+    
+    /* Fonts */
+    --fontchat: Whitney !important;
+    --fontcategoryname: Whitney !important;
+    --fontrolename: Whitney !important;
+    --fontchannelname: Whitney !important;
+    --fonttooltip: Whitney !important;
+    --fontusername: Whitney !important;
+    
+    /* Font sizes */
+    --fontchatsize: 15px !important;
+    --fontcategorynamesize: 12px !important;
+    --fontrolenamesize: 12px !important;
+    --fontchannelnamesize: 16px !important;
+    --fonttooltipsize: 14px !important;
+    --fontusernamesize: 15px !important;
+    
+    /* Scrollbars */
+    
+    --colorbar: white !important;
+    --widthbar: 14px !important;
+    
+    /* Status Colors */
+    --online: rgb(71, 191, 71)  !important;
+    --idle: yellow  !important;
+    --dnd:  red !important;
+    --offline: grey  !important;
+    --streaming: purple  !important;
+    
+    /* Server Colors */
+    --serverselected: red !important;
+    --serverunread: white !important;
+    
+    /* Home Icon */
+    --homeicon: url(https://cdn.discordapp.com/attachments/493434304949649408/514099802225639425/rudde.jpg);
+    
+    /* Avatar sizes in chat */
+    --avatar: 40px !important;
+    
+    /* Emojis */
+    --emojisize: 30px  !important;
+    --emojimenuheight: 374px !important;
+    
+    /* Titlebar customization */
+    --closeButton: url();
+    --maxButton: url();
+    --minButton: url();
+    --sizeOfButtons: 16px;
+    
+    --defaulttb: 1 !important; /* change to 0 to hide default icons */
+    
+    /* macOS stuffs */
+    --macOSClose: red !important;
+    --macOSMin: yellow !important;
+    --macOSMax: green !important;
+
+    /* Transparency of pop up backgrounds */
+    --backgroundpopup: 1 !important; /* 0 for no background or 0.5 or half transparency */
+}
