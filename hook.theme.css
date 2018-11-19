@@ -3,9 +3,35 @@ root: {
     --versionnumber: "2.21";
 }
 
-/* Inserting Fallback System */
-/*DO NOT REMOVE */
-@import url(https://cdn.staticaly.com/gh/CorbsEditor/Themes-for-BetterDiscord/master/Expose%20X/Fallback/Fallback.theme.css);
+.app::before {
+  opacity: 0.5;
+}
+.appMount-3VJmYg { /* Fallback */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    animation: backgroundstartup 5s cubic-bezier(0.860, 0.000, 0.070, 1.000);
+}
+/* - - Server List - - */
+/* Selected Server - Color */
+.theme-dark .guild-1EfMGQ.selected-ML3OIq { /* Fallback */
+    background: white; /* Default Color */
+    padding: 1px;
+    margin-left: -1px;
+    border-radius: 50px;
+}
+/* Unread Server - Color */
+.theme-dark .guild-1EfMGQ.unread-qLkInr { /* Fallback */
+    background: #8a8e94; /* Default Color */
+    padding: 1px;
+    margin-left: -1px;
+    border-radius: 50px;
+}
+/* Emojis */
+.emoji.jumboable.da-emoji.da-jumboable {
+  height: 30px;
+  width: 30px;
+}
 
 .app-19_DXt::before {
     content: "";
@@ -857,7 +883,7 @@ g.iconForeground-3y9f0B.da-iconForeground {
     color: rgba(255, 255, 255, 0) !important;
 }
 svg.homeIcon-1FoKUJ.da-homeIcon, .theme-dark .homeIcon-1FoKUJ {
-    background-image: url(https://cdn.discordapp.com/attachments/478040940649644033/479797290098491392/TheDWinkyFace.png);
+    background-image: url(https://cdn.discordapp.com/attachments/493434304949649408/514099802225639425/rudde.jpg);
     background-size: 41px;
     background-repeat: no-repeat;
     background-position: center;
