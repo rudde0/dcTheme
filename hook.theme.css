@@ -1,4 +1,4 @@
-//META{"name":"Expose X","description":"Expose X is a clean theme for Discord. It allows customization like accent colors, custom fonts, color change, and more to come in the future. Support Server for Expose X: https://discord.gg/Pdz7jAH.","author":"Corbs#0001","version":"AutoUpdate"}*//{}
+//META{"name":"Expose X (forked by rudde)","description":"Expose X is a clean theme for Discord. It allows customization like accent colors, custom fonts, color change, and more to come in the future. Support Server for Expose X: https://discord.gg/Pdz7jAH.","author":"Corbs#0001","version":"AutoUpdate"}*//{}
 root: {
     --versionnumber: "2.21";
 }
@@ -884,7 +884,7 @@ g.iconForeground-3y9f0B.da-iconForeground {
 }
 svg.homeIcon-1FoKUJ.da-homeIcon, .theme-dark .homeIcon-1FoKUJ {
     background-image: url(https://cdn.discordapp.com/attachments/493434304949649408/514099802225639425/rudde.jpg);
-    background-size: 41px;
+    background-size: 45px;
     background-repeat: no-repeat;
     background-position: center;
 }
